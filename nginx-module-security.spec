@@ -91,7 +91,7 @@ nginx security dynamic module.
 %prep
 %setup -qcTn %{name}-%{base_version}
 tar --strip-components=1 -zxf %{SOURCE0}
-git clone https://github.com/SpiderLabs/ModSecurity-nginx.git
+git clone --depth 1 https://github.com/SpiderLabs/ModSecurity-nginx.git
 
 
 
