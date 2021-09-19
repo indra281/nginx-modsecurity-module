@@ -8,7 +8,7 @@
 ```
 rpmdev-setuptree
 rpm -Uvh https://nginx.org/packages/centos/7/SRPMS/nginx-1.20.1-1.el7.ngx.src.rpm
-git clone https://github.com/shigechika/nginx-module-sticky.git
+git clone https://github.com/indra281/nginx-modsecurity-module.git
 cd nginx-module-sticky
 rpmbuild -ba nginx-module-security.spec
 sudo yum localupdate /path/to/nginx-module-sticky-1.18.0-2.el7.ngx.x86_64.rpm
