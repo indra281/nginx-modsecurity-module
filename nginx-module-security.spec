@@ -68,6 +68,8 @@ Group: %{_group}
 
 Source0: http://nginx.org/download/nginx-%{base_version}.tar.gz
 
+Source0:   https://github.com/SpiderLabs/ModSecurity/releases/download/v%{version}/modsecurity-v%{version}.tar.gz
+
 BuildRequires:  pcre-devel
 BuildRequires:  openssl-devel
 BuildRequires:  zlib-devel
