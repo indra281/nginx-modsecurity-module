@@ -68,6 +68,24 @@ Group: %{_group}
 
 Source0: http://nginx.org/download/nginx-%{base_version}.tar.gz
 
+BuildRequires:  pcre-devel
+BuildRequires:  openssl-devel
+BuildRequires:  zlib-devel
+BuildRequires:  libxslt-devel
+BuildRequires:  gd-devel
+BuildRequires:  GeoIP-devel
+BuildRequires:  pam-devel
+BuildRequires:  libmodsecurity-devel
+Requires:       pcre
+Requires:       openssl
+Requires:       zlib
+Requires:       libxslt
+Requires:       gd
+Requires:       GeoIP
+Requires:       pam
+Requires:       libmodsecurity
+
+
 License: 2-clause BSD-like license
 
 BuildRoot: %{_tmppath}/%{name}-%{base_version}-%{base_release}-root
