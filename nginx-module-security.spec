@@ -83,7 +83,7 @@ Requires:       libxslt
 Requires:       gd
 Requires:       GeoIP
 Requires:       pam
-Requires:       libmodsecurity
+
 
 
 License: 2-clause BSD-like license
